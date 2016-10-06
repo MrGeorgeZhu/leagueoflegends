@@ -18,7 +18,16 @@ public class Champion extends Characters
 				RDescription = f;
 			}
 		
-        public String getPassiveDescription()
+		
+        public String getChampionName()
+			{
+				return championName;
+			}
+		public void setChampionName(String championName)
+			{
+				this.championName = championName;
+			}
+		public String getPassiveDescription()
 			{
 				return passiveDescription;
 			}
