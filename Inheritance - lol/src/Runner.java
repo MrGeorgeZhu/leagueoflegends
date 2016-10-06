@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+public class Runner
+	{
+      public static void main(String[] args)
+	{
+		ArrayList <Champion> championlist = new ArrayList <Champion>();
+		championlist.add(new Champion("Brand", "Brand's spells light his targets ablaze, dealing 2% of their maximum Health in magic damage over 4 seconds, stacking up to 3 times. When Blaze reaches max stacks on a Champion or monster, it becomes unstable. It detonates in 2 seconds for massive damage in an area around the victim.", "Brand launches a ball of fire forward that deals magic damage. If the target is ablaze, Sear will stun the target for 1.5 seconds. Brand launches a ball of fire forward that deals 80/110/140/170/200 (+55% Ability Power) magic damage. Blaze: If the target is ablaze, Sear will stun the target for 1.5 seconds.", "After a short delay, Brand creates a Pillar of Flame at a target area, dealing magic damage to enemy units within the area. Units that are ablaze take an additional 25% damage. After a short delay, Brand creates a Pillar of Flame at a target area, dealing 75/120/165/210/255 (+60% Ability Power) magic damage to enemy units within the area. Blaze: Units that are ablaze take an additional 25% damage from Pillar of Flame.", "Brand conjures a powerful blast at his target, dealing magic damage to them. If the target is ablaze, Conflagration spreads to nearby enemies. Brand conjures a powerful blast at his target, dealing 70/90/110/130/150 (+35% Ability Power) magic damage. Blaze: If the target is ablaze, Conflagration spreads to nearby enemies.", "Brand unleashes a devastating torrent of fire, dealing magic damage each time it bounces, up to 5 bounces. Bounces prioritize stacking Blaze to max on Champions. If a target is ablaze, Pyroclasm will briefly slow them. Brand unleashes a devastating torrent of fire, dealing 100/200/300 (+25% Ability Power) magic damage each time it bounces up to 5 bounces. Bounces prioritize stacking Blaze to max on Champions. Blaze: If the target is ablaze, Pyroclasm will briefly slow the target by 30/45/60%."));
+		System.out.println(championlist.get(0));
+	}
+	}
